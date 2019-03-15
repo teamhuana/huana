@@ -117,6 +117,7 @@ $(window).load(function() {
 		controlNav: true,
 		touch: false,
 		pauseOnHover: true,
+		slideshow: false,
 		start: function() {
 			$.waypoints('refresh');
 		}
@@ -138,6 +139,7 @@ $(window).load(function() {
 		directionNav: false,
 		controlNav: true,
 		touch: true,
+		slideshow: false,
 		pauseOnHover: true,
 		start: function() {
 			$.waypoints('refresh');
