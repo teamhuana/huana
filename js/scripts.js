@@ -147,5 +147,18 @@ $(window).load(function() {
 			$.waypoints('refresh');
 		}
 	});
+	$('#priceSlidermob').flexslider({
+		animation: "slide",
+		directionNav: false,
+		controlNav: true,
+		touch: true,
+		slideshow: true,
+		initDelay: 0,
+		pauseOnHover: true,
+		slideshowSpeed: 3000, 
+		start: function() {
+			$.waypoints('refresh');
+		}
+	});
 
 });
