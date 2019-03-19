@@ -23,8 +23,8 @@ HTML5 display definitions
     position: absolute;
     left: 50%;
     top: 50%;
-    height: 50px;
-    width: 150px;
+    height: 65px;
+    width: 215px;
     margin-top: -25px;
     margin-left: -75px;
     text-transform: uppercase;
@@ -35,10 +35,8 @@ HTML5 display definitions
     animation: animate 1s infinite;
     float: left;
     color: #fff;
-    font-size: 34px;
-    font-weight: 900;
+    font-size: 51px;
 }
-
 .object:last-child {
     margin-right: 0px;
 }
