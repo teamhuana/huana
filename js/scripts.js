@@ -134,12 +134,13 @@ $(window).load(function() {
 		}
 	});
 
-	$('#teamSlider').flexslider({
+	$('#priceSlider').flexslider({
 		animation: "slide",
 		directionNav: false,
 		controlNav: true,
 		touch: true,
-		slideshow: false,
+		slideshow: true,
+		initDelay: 0,
 		pauseOnHover: true,
 		start: function() {
 			$.waypoints('refresh');
