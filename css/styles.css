@@ -3,10 +3,9 @@
 /* ==========================================================================
 HTML5 display definitions
 ========================================================================== */
- 
 /*Preloader css*/
 #loading{
-    background-color: #1c4075;
+    background-color: #690895;
     height: 100%;
     width: 100%;
     position: fixed;
@@ -28,15 +27,16 @@ HTML5 display definitions
     width: 150px;
     margin-top: -25px;
     margin-left: -75px;
+    text-transform: uppercase;
 }
 .object{
-    width: 8px;
-    height: 50px;
     margin-right:5px;
-    background-color: #FFF;
     -webkit-animation: animate 1s infinite;
     animation: animate 1s infinite;
     float: left;
+    color: #fff;
+    font-size: 34px;
+    font-weight: 900;
 }
 
 .object:last-child {
@@ -99,11 +99,7 @@ HTML5 display definitions
     }
 
 }
-
 /*End off Preloader*/
-
-
-
 /* * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3. */
 @font-face {
   font-family: Varela Round;
