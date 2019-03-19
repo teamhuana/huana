@@ -142,6 +142,7 @@ $(window).load(function() {
 		slideshow: true,
 		initDelay: 0,
 		pauseOnHover: true,
+		slideshowSpeed: 3000, 
 		start: function() {
 			$.waypoints('refresh');
 		}
