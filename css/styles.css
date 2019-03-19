@@ -333,6 +333,8 @@ iPhone Section
 /* ==========================================================================
 Swag
 ========================================================================== */
+#priceSlider li p { box-shadow: 0 0 10px #888;line-height: 100px;font-size: 24px;border-radius: 6px;}
+#priceSlider li p i{display: block;font-size: 50px;margin-bottom: 0px;margin-top: 15px;
 .swag { background: url('../img/plants-bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 50px 0; }
 .swag h1 { color: #fff; font-size: 40px; text-transform: uppercase; letter-spacing: 5px; }
 .swag h1 span { display: block; font-size: 25px; margin-top: 20px; }
