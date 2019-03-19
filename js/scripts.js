@@ -110,6 +110,9 @@ $(document).ready(function(){
 /***************** Flexsliders ******************/
 
 $(window).load(function() {
+	   $(window).load(function () {
+		$("#loading").fadeOut(500);
+	    });
 
 	$('#portfolioSlider').flexslider({
 		animation: "slide",
