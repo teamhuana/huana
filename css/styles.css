@@ -337,8 +337,8 @@ Swag
 #priceSlider li p i{display: block;font-size: 50px;padding-bottom: 20px;padding-top: 20px;color:#690895}
 #priceSlider li p span{display:block}
 #priceSlider li p span i{display: inline-block}
-#priceSlidermob li p {box-shadow: 0 0 10px #888;font-size: 16px;border-radius: 6px;padding-bottom: 10px;}
-#priceSlidermob li p i{display: block;font-size: 50px;padding-bottom: 20px;padding-top: 20px;}
+#priceSlidermob li p {font-size: 16px;border-radius: 6px;padding-bottom: 10px;}
+#priceSlidermob li p i{display: block;font-size: 50px;padding-bottom: 20px;padding-top: 20px;color:#690895}
 #priceSlidermob li p span{display:block}
 #priceSlidermob li p span i{display: inline-block}
 .swag { background: url('../img/plants-bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 50px 0; }
